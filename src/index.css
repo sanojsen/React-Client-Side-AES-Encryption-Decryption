@@ -1,0 +1,62 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+.box_shadow{
+  box-shadow: inset 2px 2px 5px #101010, inset -3px -3px 7px #3e3e3e;
+  outline: none;
+}
+.btn_shadow{
+  box-shadow: 3px 3px 6px #101010, -3px -3px 6px #3e3e3e;
+}
+.btn_hov:hover{
+  box-shadow: inset 2px 2px 5px #101010, inset -3px -3px 7px #3e3e3e;
+}
+.btn_down{
+  box-shadow: inset 2px 2px 5px #101010, inset -3px -3px 7px #3e3e3e;
+}
+
+.scrollbar{
+  overflow: scroll;
+}
+
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.for_clip img{
+  display: none;
+}
+.for_clip:hover img{
+  display: block;
+}
+.top_ruler{
+  border-top: 1px solid #ccc;
+}
